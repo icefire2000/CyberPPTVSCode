@@ -1,6 +1,6 @@
 # CyberPPT - vscode 版 （其他工具可让该工具自动改下skill以兼容，如WorkBuddy）
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Français](README.fr.md) | [Português](README.pt.md) | [Español](README.es.md) | [العربية](README.ar.md)
+样例PPT：https://github.com/icefire2000/CyberPPTVSCode/blob/main/%E7%94%9F%E6%88%90%E6%A0%B7%E4%BE%8B.pptx
 
 CyberPPT 是一个 Codex Skill，用于把文档、研究材料和业务数据转化为高密度、可编辑、咨询风格的 PowerPoint 演示文稿。
 
