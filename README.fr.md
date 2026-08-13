@@ -4,35 +4,9 @@
 
 CyberPPT est un Codex Skill qui transforme des documents, des matériaux de recherche et des données métier en présentations PowerPoint à forte densité d'information, éditables et de style conseil.
 
-Cas d'usage adaptés : présentations de conseil à haute densité, études sectorielles, analyse consommateur, stratégie de marque, analyse e-commerce, recherche utilisateur, rapports de direction, supports de conseil d'administration, propositions client et bilans de projet.
-
-Cas non adaptés : présentations peu denses et très légères en texte, discours, expression personnelle, récit, partage informel ou présentations d'opinion.
+Cas d'usage adaptés : présentations de conseil à haute densité, études sectorielles, analyse consommateur, stratégie de marque, analyse e-commerce, recherche utilisateur, rapports de direction, supports de conseil d'administration, propositions client et bilans de projet. Cas non adaptés : présentations peu denses et très text-light, discours, expression personnelle, récit, partage informel ou présentations d'opinion.
 
 CyberPPT n'est pas un simple modèle. Il transforme les sources en chaîne de preuves auditable, puis utilise la logique SCR, la planification de densité, les blueprints visuels et des gates stricts pour produire des PPTX éditables et fidèles.
-
-## **Mode d'emploi (à lire impérativement !)**
-
-**Installation : transmettez l'URL du projet à Codex et demandez-lui d'installer le Skill.**
-
-La création complète d'un PPT se déroule en trois étapes :
-
-**1. Analyser les sources.**
-
-- Importez vos documents, puis indiquez clairement à Codex : « Utilise le Skill CyberPPT situé dans le dossier XX pour créer un PPT à partir des documents et ressources importés », en ajoutant vos éventuelles exigences. À cette étape, CyberPPT analyse les sources et produit un dossier de preuves.
-
-- Remarque : CyberPPT analyse automatiquement les sources et détermine le nombre de diapositives nécessaire. Vous pouvez également imposer un nombre de diapositives.
-
-**2. Choisir un style et créer les blueprints.**
-
-- CyberPPT propose 8 styles intégrés. Après votre sélection, il passe à la génération des blueprints et crée en une seule fois ceux de toutes les diapositives. À ce stade, les blueprints ne sont pas encore modifiables.
-
-**3. Générer le PPT modifiable.**
-
-- À cette étape, CyberPPT reproduit les blueprints diapositive par diapositive. L'attention de l'IA peut se disperser : si elle tente de tout reproduire en une seule fois, arrêtez-la immédiatement et dites-lui : « Suis strictement le Skill et reproduis les diapositives une par une. » Sinon, elle risque de prendre des raccourcis et de ne produire que des structures sommaires. Si une diapositive s'écarte du blueprint, signalez le problème dès qu'il apparaît (**une capture d'écran annotée avec des flèches est la méthode la plus efficace**). Les deux premières diapositives prennent généralement plus de temps et sont plus sujettes aux erreurs. Ce calibrage initial est difficilement évitable, mais une fois le processus ajusté, CyberPPT travaillera de plus en plus vite et avec de meilleurs résultats.
-
-**Remarques finales**
-
-- Les trois étapes sont obligatoires et ne doivent pas être ignorées. Elles permettent au Skill de reproduire environ 90 % des blueprints. Les graphiques en courbes sont les plus difficiles à restituer ; en cas d'écart, fournissez une capture d'écran et demandez à Codex d'affiner le résultat. L'IA peut également choisir de mauvaises petites icônes : signalez-les et demandez leur régénération. Les derniers problèmes de retours à la ligne et de taille de police peuvent être corrigés manuellement. Évitez d'exiger une reproduction parfaite à 100 % par l'IA : c'est possible, mais le résultat comporte une part d'aléatoire — parfois tout fonctionne du premier coup, parfois plusieurs ajustements sont nécessaires. Atteindre 100 % uniquement avec l'IA demande beaucoup plus de débogage et de Token. La recommandation pratique est la suivante : **laissez l'IA réaliser 90 % du travail et terminez vous-même les 10 % restants** ; sinon, vous pouvez utiliser directement les blueprints.
 
 ## Capacités clés
 

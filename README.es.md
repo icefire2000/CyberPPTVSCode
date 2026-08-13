@@ -4,35 +4,9 @@
 
 CyberPPT es un Codex Skill para convertir documentos, materiales de investigación y datos de negocio en presentaciones PowerPoint de alta densidad, editables y con estilo de consultoría.
 
-Casos adecuados: PPT de consultoría con alta densidad de información, incluyendo investigación sectorial, análisis de consumo, estrategia de marca, análisis de e-commerce, investigación de usuarios, informes ejecutivos, materiales para consejo, propuestas a clientes y retrospectivas de proyecto.
-
-No es adecuado para presentaciones de baja densidad y poco texto, discursos, expresión personal, narrativa, intercambio informal o PPT de opinión.
+Casos adecuados: PPT de consultoría con alta densidad de información, incluyendo investigación sectorial, análisis de consumo, estrategia de marca, análisis de e-commerce, investigación de usuarios, informes ejecutivos, materiales para consejo, propuestas a clientes y retrospectivas de proyecto. No es adecuado para presentaciones de baja densidad y poco texto, discursos, expresión personal, narrativa, intercambio informal o PPT de opinión.
 
 CyberPPT no es una plantilla. Convierte las fuentes en una cadena de evidencia auditable y usa lógica SCR, planificación de densidad, blueprints visuales y gates estrictos para generar PPTX editables y fieles al diseño.
-
-## **Cómo usarlo (¡lectura obligatoria!)**
-
-**Instalación: proporciona a Codex la URL del proyecto y pídele que instale el Skill.**
-
-La creación correcta de un PPT se divide en tres etapas:
-
-**1. Analizar los materiales de origen.**
-
-- Sube tus documentos e indica claramente a Codex: «Usa el Skill CyberPPT de la carpeta XX para crear un PPT basado en los documentos/materiales subidos», junto con cualquier requisito adicional. En esta etapa, CyberPPT analiza los materiales y genera un expediente de evidencias.
-
-- Nota: CyberPPT analiza automáticamente los materiales y determina cuántas diapositivas son necesarias. Si lo prefieres, también puedes especificar el número de diapositivas.
-
-**2. Elegir un estilo y crear los blueprints.**
-
-- CyberPPT presenta 8 estilos integrados. Después de elegir uno, pasa al proceso de generación de blueprints y crea de una sola vez los blueprints de todas las diapositivas. En este punto, los blueprints todavía no son editables.
-
-**3. Generar el PPT editable.**
-
-- En esta etapa, CyberPPT recrea los blueprints diapositiva por diapositiva. La atención de la IA puede dispersarse; si empieza a recrear todas las diapositivas a la vez, detenla inmediatamente y dile: «Sigue estrictamente el Skill y recrea las diapositivas una por una». De lo contrario, puede tomar atajos y producir únicamente diseños esquemáticos. Si una diapositiva recreada se desvía del blueprint, señala el problema en cuanto aparezca (**las capturas de pantalla anotadas con flechas funcionan mejor**). Las dos primeras diapositivas suelen requerir más tiempo y son más propensas a errores. Este ajuste inicial es inevitable, pero, una vez afinado el flujo de trabajo, CyberPPT trabajará cada vez más rápido y ofrecerá mejores resultados.
-
-**Notas finales**
-
-- Las tres etapas son obligatorias y no deben omitirse. Al seguirlas, el Skill puede reproducir aproximadamente el 90% de los blueprints. Los gráficos con curvas son los más difíciles de recrear; si el resultado se desvía, proporciona una captura de pantalla y pide a Codex que lo ajuste con precisión. La IA también puede elegir iconos pequeños incorrectos, así que señala los errores y solicita que los regenere. Los problemas restantes de saltos de línea y tamaño de fuente pueden corregirse manualmente. Evita exigir una reproducción perfecta al 100% mediante IA: es posible, pero existe cierta aleatoriedad; a veces funciona en un solo intento y otras veces requiere varios ajustes. Alcanzar el 100% solo con IA consume mucho más tiempo de depuración y Token. La recomendación práctica es: **deja que la IA haga el 90% y completa tú mismo el 10% restante**; de lo contrario, puedes utilizar directamente los blueprints.
 
 ## Capacidades principales
 

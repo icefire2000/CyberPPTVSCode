@@ -1,4 +1,4 @@
----
+﻿---
 name: cyber-ppt
 description: 当用户需要把 DOCX、PDF、TXT、XLSX、研究报告、业务材料或原始数据转成高密度、可编辑、咨询风格 PPTX 时使用；也适用于需要 SCR 论证、视觉风格探索、详细图表和渲染质检的 PPT。
 ---
@@ -31,6 +31,15 @@ description: 当用户需要把 DOCX、PDF、TXT、XLSX、研究报告、业务�
 - 第二阶段必须读取 `visual-system.md` 后再生成风格样张；默认必须逐项使用固定 8 种 CyberPPT 视觉风格，不得用扩展风格替代，除非用户明确要求替换。
 - 第二阶段的逐页蓝图子阶段即使已经选好风格，也必须重新对照 `visual-system.md`，声明锁定的风格编号、色板、网格、标题层级、图表语言和信息密度规则，防止逐页生成时风格漂移。
 - 第三阶段必须读取 `ppt-production.md` 和 `quality-assurance.md` 后再生成 PPTX 和渲染检查。
+
+## Azure ImageGen 集成
+
+- 需要生成逐页蓝图、重新生成风格样张、制作插画或创建其他生成式图片资产时，读取并遵循同级个人 Skill [`azure-gpt-image`](../azure-gpt-image/SKILL.md)，使用其 Azure OpenAI `gpt-image-2` 工作流。
+- CyberPPT 的完整页面蓝图必须显式指定 `1536x864`（16:9）和 `medium`；不得沿用 `azure-gpt-image` 的 `1536x1024` 默认尺寸。
+- 非整页插画或图片资产如果用户未指定尺寸，可以使用 `azure-gpt-image` 的默认尺寸和质量；如果资产插入框比例已经锁定，应选择匹配该比例且符合模型约束的尺寸。
+- 每次生成必须保存 `imagegen_prompt`、输出路径、有效模型、尺寸和质量，并将其写入对应的蓝图记录或图片资产准入表。
+- Azure ImageGen 只用于 ImageGen 蓝图、插画、照片感素材和确有必要的复杂视觉资产。折线图、柱状图、坐标轴、表格、关键数字、标签、流程箭头和其他主要信息层仍必须按本 Skill 使用原生 PowerPoint 对象重建。
+- 不得把生成图中的文字、数字、Logo、引文或图表值当作事实；最终 PPTX 必须从 `slide_content_lock` 和证据表恢复真实、可编辑内容。
 
 ## 第一步：证据分析 + 内容脑暴 + SCR + 页面密度规划
 

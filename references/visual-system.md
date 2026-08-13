@@ -1,4 +1,4 @@
-# 视觉系统与 ImageGen 探索
+﻿# 视觉系统与 ImageGen 探索
 
 ## 默认视觉风格探索
 
@@ -69,6 +69,8 @@
 
 ## 图像生成规则
 
+- 默认使用同级个人 Skill [`azure-gpt-image`](../../azure-gpt-image/SKILL.md) 调用 Azure OpenAI `gpt-image-2`。生成完整页面样张或逐页蓝图时，必须覆盖其默认尺寸并显式使用 `1536x864`（16:9）与 `medium` quality。
+- 调用后记录输出路径、有效模型、尺寸、质量和完整 prompt；该记录作为 `imagegen_generation_id` 的等价生成记录，并进入蓝图 metadata。
 - 每个方向生成一张独立完整的 16:9 页面。
 - 跨选项使用同一类代表性内容，确保可以公平比较风格。
 - 不得创建拼图、缩略图墙或一张图里塞多页。

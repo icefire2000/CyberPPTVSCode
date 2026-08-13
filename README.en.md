@@ -4,35 +4,9 @@
 
 CyberPPT is a Codex Skill for turning documents, research materials, and business data into high-density, editable, consulting-style PowerPoint presentations.
 
-Best for consulting-style decks with high information density: industry research, consumer analysis, brand strategy, e-commerce analysis, user research, executive briefings, board materials, client proposals, and project retrospectives.
-
-Not for text-light, low-density decks such as speeches, personal expression, narrative sharing, or opinion-only presentations.
+Best for consulting-style decks with high information density: industry research, consumer analysis, brand strategy, e-commerce analysis, user research, executive briefings, board materials, client proposals, and project retrospectives. Not for text-light, low-density decks such as speeches, personal expression, narrative sharing, or opinion-only presentations.
 
 CyberPPT is not a template wrapper. It turns source materials into an auditable evidence chain, then uses SCR logic, page density planning, visual blueprints, and strict gates to produce editable and high-fidelity consulting decks.
-
-## **How to Use (Must Read!)**
-
-**Installation: Give Codex the project URL and ask it to install the Skill.**
-
-Creating a PPT properly involves three stages:
-
-**1. Analyze the source materials.**
-
-- Upload your source documents and explicitly tell Codex: “Use the CyberPPT skill in the XX folder to create a PPT based on the uploaded documents/materials,” together with any additional requirements. At this stage, it will analyze the materials and produce an evidence brief.
-
-- Note: CyberPPT will automatically analyze the materials and determine the number of slides. You can also specify the slide count if needed.
-
-**2. Choose a style and create the blueprints.**
-
-- CyberPPT will present 8 built-in styles. Once you choose one, it enters the blueprint stage and generates blueprints for all slides in one pass. The blueprints are not editable at this point.
-
-**3. Generate the editable PPT.**
-
-- At this stage, CyberPPT recreates the blueprints one slide at a time. AI attention can drift, so if it starts recreating all slides at once, stop it immediately and say: “Strictly follow the Skill and recreate the slides one by one.” Otherwise, it may cut corners and produce only skeletal layouts. If a recreated slide deviates from the blueprint, point out the problem when it appears (**screenshots annotated with arrows work best**). The first and second slides usually take longer and are more prone to errors. This initial calibration is unavoidable, but once the workflow is tuned, CyberPPT will become faster and produce better results.
-
-**Final notes**
-
-- All three stages are mandatory. Following them allows the Skill to reproduce roughly 90% of the blueprints. Curved charts are the hardest to recreate; if one goes off track, provide a screenshot and ask Codex to refine it. AI can also choose the wrong small icons, so point out any mistakes and ask it to regenerate them. You can manually adjust remaining line breaks and font-size issues. Avoid insisting that AI reproduce everything with 100% accuracy: it is possible, but results are somewhat random—sometimes it works in one pass, and sometimes it needs several attempts. Reaching 100% through AI alone requires substantially more debugging and tokens. The practical recommendation is: **let AI handle 90% and finish the remaining 10% yourself**; otherwise, you can use the blueprints directly.
 
 ## Core Capabilities
 
